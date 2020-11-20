@@ -17,4 +17,4 @@ SELECT *
 From Recipe r
 JOIN RecipeIngredient ri on ri.recipe_id = r.id  
 JOIN Ingredient i on i.id = ri.ingredient_id 
-WHERE i.name = ???
+WHERE i.name = sugar
